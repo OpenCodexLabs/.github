@@ -5,11 +5,11 @@
 <h1 align="center">OpenClaudex</h1>
 
 <p align="center">
-  <strong>Open infrastructure for Claude, Codex, and agent-native workflows.</strong>
+  <strong>An open gallery for interesting agent-native experiments.</strong>
 </p>
 
 <p align="center">
-  Claude Code • Codex • MCP • Agent UI • Tooling • Evaluation
+  Claude Code • Codex • MCP • Agent UI • Multi-Agent Workflows • Evaluation
 </p>
 
 <p align="center">
@@ -17,21 +17,32 @@
   <img alt="MCP" src="https://img.shields.io/badge/MCP-native-blue">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-6b46c1">
   <img alt="Codex" src="https://img.shields.io/badge/Codex-ready-111827">
-  <img alt="Agents" src="https://img.shields.io/badge/agent--native-workflows-0f766e">
+  <img alt="Agents" src="https://img.shields.io/badge/agent--native-experiments-0f766e">
 </p>
 
-## What OpenClaudex Is
+## 📈 Building Along The Curve
 
-OpenClaudex is an open lab for agent-native software.
+We are watching an unusual acceleration curve: AI systems are getting better at completing longer, messier, more real-world tasks.
 
-We explore the layers that make Claude, Codex, MCP tools, and local apps work together: execution runtimes, interaction patterns, evaluation traces, safety surfaces, and developer-facing agent infrastructure.
+<p align="center">
+  <img src="https://metr.org/assets/images/measuring-ai-ability-to-complete-long-tasks/length-of-tasks-log.png" alt="METR chart: The length of tasks AI can do is doubling every 7 months" />
+</p>
 
-## Direction
+<p align="center">
+  <sub>Source: <a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/">METR, Measuring AI Ability to Complete Long Tasks</a> (CC-BY)</sub>
+</p>
 
-- **Agent UI**: interfaces where agents can work beside humans, not over them.
-- **Execution layers**: local runtimes that connect models to real tools and apps.
-- **MCP-first tooling**: small, inspectable services that different agent harnesses can reuse.
-- **Evaluation traces**: reproducible tasks and rollouts for understanding agent behavior.
+Our bet is simple: if agent capability keeps scaling, the surrounding infrastructure should scale with it too.
+
+OpenClaudex is a place to build and collect the small pieces that make that future usable: execution lanes, control surfaces, traces, evaluation harnesses, and multi-agent workflows.
+
+## 🧭 What We Explore
+
+- **🛤️ Agent lanes**: agents should work beside humans, not steal their mouse and keyboard.
+- **🧑‍✈️ Less human intervention**: make AI operate longer with clearer state, recovery, and safety surfaces.
+- **🐝 AI swarms**: scale from one assistant to many cooperating agents that divide work and report back.
+- **🧪 Evaluation traces**: collect real rollouts, failures, and compatibility notes instead of only demos.
+- **🔌 MCP-first tooling**: small, inspectable services that Claude, Codex, and other harnesses can reuse.
 
 ## Recent Project
 
@@ -53,20 +64,20 @@ Open-source background computer use for Claude Code, Codex, and MCP agents on ma
 
 ## What We Care About
 
-- Agents should cooperate with human workflows, not hijack them.
-- Tool execution should be visible, recoverable, and inspectable.
-- Open agent infrastructure should be small enough to understand and practical enough to use.
-- Claude, Codex, MCP, and local-first tools should compose cleanly.
+- **Human-AI coexistence**: agents should cooperate with human workflows, not hijack them.
+- **Operational scale**: more agents should mean more throughput, not more babysitting.
+- **Visible autonomy**: tool execution should be observable, recoverable, and inspectable.
+- **Composable infrastructure**: Claude, Codex, MCP, and local-first tools should plug together cleanly.
 
 ## Coming Next
 
-- More MCP execution services
-- Agent behavior trace kits
-- Compatibility notes for real-world apps
-- Small harnesses and demos for agent-human coworking
+- 🧰 More MCP execution services
+- 🧾 Agent behavior trace kits
+- 🧩 Compatibility notes for real-world apps
+- 🐝 Small harnesses and demos for agent-human coworking
 
 ## Follow The Work
 
-- Follow the org for Claude, Codex, MCP, and agent-native infrastructure.
+- Follow the org for Claude, Codex, MCP, and agent-native experiments.
 - Start with the recent project: [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
 - Report issues or request features: [Issues](https://github.com/OpenClaudex/open-claudex-computer-use/issues)
