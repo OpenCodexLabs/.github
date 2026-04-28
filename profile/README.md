@@ -25,7 +25,7 @@
 We are watching an unusual acceleration curve: frontier models are iterating faster, and the release cadence itself is becoming a signal.
 
 <p align="center">
-  <img src="https://inews.gtimg.com/om_bt/OJ3JnpO6YoC-WI1IfD79KnSzHPU8lOfhPoQIbSd8GsxhkAA/641" alt="OpenAI flagship model releases over time" />
+  <img src="assets/release-cadence-chart.png" width="680" alt="OpenAI flagship model releases over time" />
 </p>
 
 <p align="center">
