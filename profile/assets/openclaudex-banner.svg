@@ -1,0 +1,67 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08111F"/>
+      <stop offset="0.48" stop-color="#0E2435"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="160" y1="285" x2="1110" y2="135" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.38 0 0 0 0 0.91 0 0 0 0 0.98 0 0 0 0.85 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1015 102) rotate(135) scale(206 170)">
+      <stop stop-color="#FDE68A" stop-opacity="0.9"/>
+      <stop offset="0.42" stop-color="#67E8F9" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="420" rx="36" fill="url(#bg)"/>
+  <circle cx="1015" cy="102" r="210" fill="url(#orb)"/>
+
+  <g opacity="0.14">
+    <path d="M0 96H1280" stroke="#E5E7EB"/>
+    <path d="M0 180H1280" stroke="#E5E7EB"/>
+    <path d="M0 264H1280" stroke="#E5E7EB"/>
+    <path d="M0 348H1280" stroke="#E5E7EB"/>
+    <path d="M160 0V420" stroke="#E5E7EB"/>
+    <path d="M320 0V420" stroke="#E5E7EB"/>
+    <path d="M480 0V420" stroke="#E5E7EB"/>
+    <path d="M640 0V420" stroke="#E5E7EB"/>
+    <path d="M800 0V420" stroke="#E5E7EB"/>
+    <path d="M960 0V420" stroke="#E5E7EB"/>
+    <path d="M1120 0V420" stroke="#E5E7EB"/>
+  </g>
+
+  <path d="M170 296C330 210 446 222 578 260C724 302 856 294 1110 138" stroke="url(#lane)" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M190 331C358 252 473 261 602 298C740 338 900 328 1134 184" stroke="#94A3B8" stroke-opacity="0.36" stroke-width="2" stroke-dasharray="12 16"/>
+
+  <g transform="translate(850 130) rotate(-18)">
+    <path d="M0 0L132 56L70 73L41 132L0 0Z" fill="#F8FAFC"/>
+    <path d="M37 34L70 73L41 132L0 0L132 56L72 71" stroke="#0F172A" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M70 73L106 116" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <text x="88" y="134" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">
+    OpenClaudex
+  </text>
+  <text x="92" y="194" fill="#BAE6FD" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="650">
+    Open execution layers for agent-native computer use
+  </text>
+  <text x="94" y="246" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">
+    Claude Code • Codex • MCP • macOS • Background UI Automation
+  </text>
+
+  <g transform="translate(92 304)">
+    <rect width="210" height="42" rx="21" fill="#0F766E" fill-opacity="0.92"/>
+    <text x="24" y="28" fill="#ECFEFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700">
+      Agents need lanes
+    </text>
+  </g>
+</svg>
