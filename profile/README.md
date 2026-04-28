@@ -5,40 +5,45 @@
 <h1 align="center">OpenClaudex</h1>
 
 <p align="center">
-  <strong>Open-source background computer use for Claude and Codex on macOS.</strong>
+  <strong>Open infrastructure for Claude, Codex, and agent-native workflows.</strong>
 </p>
 
 <p align="center">
-  Claude Code • Codex • MCP • macOS • Native App Control
+  Claude Code • Codex • MCP • Agent UI • Tooling • Evaluation
 </p>
 
 <p align="center">
   <img alt="Open Source" src="https://img.shields.io/badge/open-source-111827">
-  <img alt="macOS" src="https://img.shields.io/badge/macOS-native-black">
-  <img alt="MCP" src="https://img.shields.io/badge/MCP-stdio-blue">
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-native-blue">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-6b46c1">
   <img alt="Codex" src="https://img.shields.io/badge/Codex-ready-111827">
-  <img alt="Computer Use" src="https://img.shields.io/badge/background-computer--use-0f766e">
+  <img alt="Agents" src="https://img.shields.io/badge/agent--native-workflows-0f766e">
 </p>
 
-## Projects
+## What OpenClaudex Is
+
+OpenClaudex is an open lab for agent-native software.
+
+We explore the layers that make Claude, Codex, MCP tools, and local apps work together: execution runtimes, interaction patterns, evaluation traces, safety surfaces, and developer-facing agent infrastructure.
+
+## Direction
+
+- **Agent UI**: interfaces where agents can work beside humans, not over them.
+- **Execution layers**: local runtimes that connect models to real tools and apps.
+- **MCP-first tooling**: small, inspectable services that different agent harnesses can reuse.
+- **Evaluation traces**: reproducible tasks and rollouts for understanding agent behavior.
+
+## Recent Project
 
 ### [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
 
-Swift MCP server for native macOS computer use.
+Open-source background computer use for Claude Code, Codex, and MCP agents on macOS.
 
-It lets Claude Code, Codex, and MCP agents inspect and operate real Mac apps with Accessibility, screenshots, post-action state, and an app-aware virtual cursor.
-
-## What It Is
-
-OpenClaudex builds open tools for native app control on macOS, focused on background computer use, accessibility-driven interaction, and model-friendly control surfaces.
-
-## Why
-
-- Native macOS app interaction
-- Built for Claude and Codex workflows
-- Open-source alternative to closed computer-use stacks
+- Native Swift MCP server
+- App-aware virtual cursor
+- Accessibility + screenshot context
 - Background execution without stealing the user's mouse and keyboard
+- Codex-style behavior, open implementation
 
 ## Recent Demo
 
@@ -50,10 +55,18 @@ OpenClaudex builds open tools for native app control on macOS, focused on backgr
 
 - Agents should cooperate with human workflows, not hijack them.
 - Tool execution should be visible, recoverable, and inspectable.
-- MCP execution layers should be open, small, and reusable.
+- Open agent infrastructure should be small enough to understand and practical enough to use.
+- Claude, Codex, MCP, and local-first tools should compose cleanly.
+
+## Coming Next
+
+- More MCP execution services
+- Agent behavior trace kits
+- Compatibility notes for real-world apps
+- Small harnesses and demos for agent-human coworking
 
 ## Follow The Work
 
-- Star the project: [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
+- Follow the org for Claude, Codex, MCP, and agent-native infrastructure.
+- Start with the recent project: [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
 - Report issues or request features: [Issues](https://github.com/OpenClaudex/open-claudex-computer-use/issues)
-- Follow the org for more Claude, Codex, and MCP computer-use infrastructure.
