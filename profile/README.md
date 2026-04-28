@@ -22,14 +22,14 @@
 
 ## 📈 Building Along The Curve
 
-We are watching an unusual acceleration curve: frontier models keep moving upward on public intelligence and capability charts.
+We are watching an unusual acceleration curve: frontier models are iterating faster, and the release cadence itself is becoming a signal.
 
 <p align="center">
-  <img src="https://inews.gtimg.com/om_bt/OifKrHgY96vrIGMqF0-GJDsw43yWWxgWwAhwTzABhuL8QAA/641" alt="Artificial Analysis chart: Frontier Language Model Intelligence, Over Time" />
+  <img src="https://inews.gtimg.com/om_bt/OJ3JnpO6YoC-WI1IfD79KnSzHPU8lOfhPoQIbSd8GsxhkAA/641" alt="OpenAI flagship model releases over time" />
 </p>
 
 <p align="center">
-  <sub>Source: <a href="https://news.qq.com/rain/a/20260426A04G6A00">Tencent News</a> / Artificial Analysis intelligence index chart</sub>
+  <sub>Source: <a href="https://news.qq.com/rain/a/20260426A04G6A00">Tencent News</a> / OpenAI flagship model release timeline</sub>
 </p>
 
 Our bet is simple: if agent capability keeps scaling, the surrounding infrastructure should scale with it too.
