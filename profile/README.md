@@ -22,14 +22,14 @@
 
 ## 📈 Building Along The Curve
 
-We are watching an unusual acceleration curve: AI systems are getting better at completing longer, messier, more real-world tasks.
+We are watching an unusual acceleration curve: frontier models keep moving upward on public intelligence and capability charts.
 
 <p align="center">
-  <img src="https://metr.org/assets/images/measuring-ai-ability-to-complete-long-tasks/length-of-tasks-log.png" alt="METR chart: The length of tasks AI can do is doubling every 7 months" />
+  <img src="https://inews.gtimg.com/om_bt/OifKrHgY96vrIGMqF0-GJDsw43yWWxgWwAhwTzABhuL8QAA/641" alt="Artificial Analysis chart: Frontier Language Model Intelligence, Over Time" />
 </p>
 
 <p align="center">
-  <sub>Source: <a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/">METR, Measuring AI Ability to Complete Long Tasks</a> (CC-BY)</sub>
+  <sub>Source: <a href="https://news.qq.com/rain/a/20260426A04G6A00">Tencent News</a> / Artificial Analysis intelligence index chart</sub>
 </p>
 
 Our bet is simple: if agent capability keeps scaling, the surrounding infrastructure should scale with it too.
