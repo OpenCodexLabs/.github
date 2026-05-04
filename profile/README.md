@@ -46,6 +46,16 @@ OpenClaudex is a place to build and collect the small pieces that make that futu
 
 ## Recent Project
 
+### [openreview-agent](https://github.com/OpenClaudex/openreview-agent)
+
+Agent skill and CLI toolkit for safe OpenReview submission workflows.
+
+- Submission copilot for authors and research agents
+- Author profile matching with affiliation evidence
+- Cross-venue transfer preflight with dry-run-first safeguards
+- Batch submission scaffolding with explicit confirmation
+- Schema-aware OpenReview edits through `openreview-py`
+
 ### [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
 
 Open-source background computer use for Claude Code, Codex, and MCP agents on macOS.
@@ -79,5 +89,5 @@ Open-source background computer use for Claude Code, Codex, and MCP agents on ma
 ## Follow The Work
 
 - Follow the org for Claude, Codex, MCP, and agent-native experiments.
-- Start with the recent project: [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
-- Report issues or request features: [Issues](https://github.com/OpenClaudex/open-claudex-computer-use/issues)
+- Start with the recent projects: [openreview-agent](https://github.com/OpenClaudex/openreview-agent) and [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
+- Report issues or request features in the relevant project repository.
