@@ -44,7 +44,17 @@ OpenClaudex is a place to build and collect the small pieces that make that futu
 - **🧪 Evaluation traces**: collect real rollouts, failures, and compatibility notes instead of only demos.
 - **🔌 MCP-first tooling**: small, inspectable services that Claude, Codex, and other harnesses can reuse.
 
-## Recent Project
+## Recent Projects
+
+### [agent-context-manager](https://github.com/OpenClaudex/agent-context-manager)
+
+Agent-native context recovery across local coding-agent harnesses.
+
+- Cross-harness recall for local Claude Code, Codex, CodeBuddy, and other agent traces
+- Async compact jobs for current-session context
+- Reviewable context candidates before anything enters the active prompt
+- Agent-added source discovery for Cursor, Windsurf, Trae, Cline, Continue, Aider, and internal tools
+- VCC-inspired trace compilation and retrieval workflow
 
 ### [openreview-agent](https://github.com/OpenClaudex/openreview-agent)
 
@@ -89,5 +99,5 @@ Open-source background computer use for Claude Code, Codex, and MCP agents on ma
 ## Follow The Work
 
 - Follow the org for Claude, Codex, MCP, and agent-native experiments.
-- Start with the recent projects: [openreview-agent](https://github.com/OpenClaudex/openreview-agent) and [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
+- Start with the recent projects: [agent-context-manager](https://github.com/OpenClaudex/agent-context-manager), [openreview-agent](https://github.com/OpenClaudex/openreview-agent), and [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
 - Report issues or request features in the relevant project repository.
