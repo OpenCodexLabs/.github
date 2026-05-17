@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/openclaudex-banner.svg" alt="OpenClaudex banner" />
+  <img src="assets/opencodexlabs-banner.png" alt="OpenCodexLabs banner" />
 </p>
 
-<h1 align="center">OpenClaudex</h1>
+<h1 align="center">OpenCodexLabs</h1>
 
 <p align="center">
   <strong>An open gallery for interesting agent-native experiments.</strong>
@@ -34,7 +34,7 @@ We are watching an unusual acceleration curve: frontier models are iterating fas
 
 Our bet is simple: if agent capability keeps scaling, the surrounding infrastructure should scale with it too.
 
-OpenClaudex is a place to build and collect the small pieces that make that future usable: execution lanes, control surfaces, traces, evaluation harnesses, and multi-agent workflows.
+OpenCodexLabs is a place to build and collect the small pieces that make that future usable: execution lanes, control surfaces, traces, evaluation harnesses, and multi-agent workflows.
 
 ## 🧭 What We Explore
 
@@ -46,7 +46,7 @@ OpenClaudex is a place to build and collect the small pieces that make that futu
 
 ## Recent Projects
 
-### [agent-context-manager](https://github.com/OpenClaudex/agent-context-manager)
+### [agent-context-manager](https://github.com/OpenCodexLabs/agent-context-manager)
 
 Agent-native context recovery across local coding-agent harnesses.
 
@@ -56,7 +56,7 @@ Agent-native context recovery across local coding-agent harnesses.
 - Agent-added source discovery for Cursor, Windsurf, Trae, Cline, Continue, Aider, and internal tools
 - VCC-inspired trace compilation and retrieval workflow
 
-### [openreview-agent](https://github.com/OpenClaudex/openreview-agent)
+### [openreview-agent](https://github.com/OpenCodexLabs/openreview-agent)
 
 Agent skill and CLI toolkit for safe OpenReview submission workflows.
 
@@ -66,7 +66,7 @@ Agent skill and CLI toolkit for safe OpenReview submission workflows.
 - Batch submission scaffolding with explicit confirmation
 - Schema-aware OpenReview edits through `openreview-py`
 
-### [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
+### [open-codex-computer-use](https://github.com/OpenCodexLabs/open-codex-computer-use)
 
 Open-source background computer use for Claude Code, Codex, and MCP agents on macOS.
 
@@ -80,7 +80,7 @@ Open-source background computer use for Claude Code, Codex, and MCP agents on ma
 
 | Native Apps | Background Work | Feishu / Lark |
 |---|---|---|
-| <img src="https://raw.githubusercontent.com/OpenClaudex/open-claudex-computer-use/main/docs/assets/demo-calculator.gif" alt="Native app demo" /> | <img src="https://raw.githubusercontent.com/OpenClaudex/open-claudex-computer-use/main/docs/assets/demo-background-safari-notes.gif" alt="Background computer use demo" /> | <img src="https://raw.githubusercontent.com/OpenClaudex/open-claudex-computer-use/main/docs/assets/demo-feishu-lark.gif" alt="Feishu and Lark demo" /> |
+| <img src="https://raw.githubusercontent.com/OpenCodexLabs/open-codex-computer-use/main/docs/assets/demo-calculator.gif" alt="Native app demo" /> | <img src="https://raw.githubusercontent.com/OpenCodexLabs/open-codex-computer-use/main/docs/assets/demo-background-safari-notes.gif" alt="Background computer use demo" /> | <img src="https://raw.githubusercontent.com/OpenCodexLabs/open-codex-computer-use/main/docs/assets/demo-feishu-lark.gif" alt="Feishu and Lark demo" /> |
 
 ## What We Care About
 
@@ -99,5 +99,5 @@ Open-source background computer use for Claude Code, Codex, and MCP agents on ma
 ## Follow The Work
 
 - Follow the org for Claude, Codex, MCP, and agent-native experiments.
-- Start with the recent projects: [agent-context-manager](https://github.com/OpenClaudex/agent-context-manager), [openreview-agent](https://github.com/OpenClaudex/openreview-agent), and [open-claudex-computer-use](https://github.com/OpenClaudex/open-claudex-computer-use)
+- Start with the recent projects: [agent-context-manager](https://github.com/OpenCodexLabs/agent-context-manager), [openreview-agent](https://github.com/OpenCodexLabs/openreview-agent), and [open-codex-computer-use](https://github.com/OpenCodexLabs/open-codex-computer-use)
 - Report issues or request features in the relevant project repository.
